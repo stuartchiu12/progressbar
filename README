@@ -7,7 +7,7 @@ http://htmlpreview.github.io/?https://github.com/stuartchiu12/progressbar/blob/m
 
 To run the build script
 
-1) checkout everything in https://github.com/stuartchiu12/progressbar/
+1) git clone https://github.com/stuartchiu12/progressbar.git
 2) run ant
 3) progressbar.zip is the final build, extract and run the progress2min.html for minified css and js
 
