@@ -1,0 +1,40 @@
+<!doctype html>
+<!-- 
+	Progress bar demo 
+	By: Stuart Chiu 
+	stuartchiu12(at)gmail(dot)com	
+-->
+<html lang="us">	
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="progress2.css"> 
+		<script type="text/javascript" src="progress2.js"></script>
+	</head>
+	<body>
+		<div class="progressbar" id="p1">
+			<div>&nbsp;</div>
+			<span>0%</span>
+		</div>
+		<div class="progressbar" id="p2">
+			<div>&nbsp;</div>
+			<span>0%</span>
+		</div>
+		<div class="progressbar" id="p3">
+			<div>&nbsp;</div>
+			<span>0%</span>
+		</div>
+		
+		<div>
+			<select id="current">
+				<option value="0" selected="selected">#progress 1</option>
+				<option value="1">#progress 2</option>
+				<option value="2">#progress 3</option>
+			</select>
+			<button onclick="add(-25);">-25</button>
+			<button onclick="add(-10);">-10</button>
+			<button onclick="add(10);">+10</button>
+			<button onclick="add(25);">+25</button>
+		</div>
+	</body>
+
+</html>
