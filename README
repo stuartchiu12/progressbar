@@ -1,3 +1,13 @@
 Progress Bar Demo by Stuart Chiu
 
+To run the demo via htmlpreview
+
+http://htmlpreview.github.io/?https://github.com/stuartchiu12/progressbar/blob/master/progress2.html
+
+
+To run the build script
+
+1) checkout everything in https://github.com/stuartchiu12/progressbar/
+2) run ant
+3) progressbar.zip is the final build, extract and run the progress2min.html for minified css and js
 
