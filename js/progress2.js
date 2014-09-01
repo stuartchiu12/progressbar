@@ -17,7 +17,7 @@ ProgressBar.prototype.add=function(num){
 	var div=document.querySelector('#'+this.id+" > div:first-of-type");
 	if(this.value>100){
 		div.style.width="100%";
-		div.className='overlimit'
+		div.className='overlimit';
 	}else{
 		div.style.width=this.value+"%";
 		div.className='';
